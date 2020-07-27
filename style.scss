@@ -2,7 +2,8 @@
   width: 100%;
   position: fixed;
   z-index: 10;
-  height: 85px;
+  height: 75px;
+  background-color: white;
   .title {
     width: 1170px;
     padding: 20px 0;
@@ -10,30 +11,68 @@
     position: relative;
     .logo {
       display: inline-block;
+      margin-top: -6px;
       img {
         width: 130px;
+        vertical-align: bottom;
       }
     }
     .sub-txt {
       display: inline-block;
       position: absolute;
-      bottom: 30px;
+      bottom: 23px;
       p {
         font-size: 14px;
-        margin-left: 8px;
+        margin-left: 5px;
+        letter-spacing: 0.1rem;
       }
     }
     .header-contact {
       cursor: pointer;
       position: absolute;
       right: 0;
-      top: 23px;
+      top: 17px;
       background-color: #dd7871;
       color: white;
       border-radius: 25px;
-      padding: 10px 40px;
+      padding: 10px 37px;
       &:hover {
         background-color: #d85047;
+      }
+    }
+  }
+}
+
+// ---------------
+// トップ画面
+// ---------------
+.top-container {
+  padding-top: 75px;
+  text-align: center;
+  .bg-img {
+    height: 500px;
+    background-image: url("images/Isara-bg.jpg");
+    background-size: cover;
+    background-position:center ;
+    .img-txt {
+      padding-top: 93px;
+      .txt1 {
+        font-weight: bold;
+        font-size: 27px;
+        letter-spacing: 0.16rem;
+        margin-bottom: 13px;
+      }
+    }
+    .large-title {
+      img {
+        width: 318px;
+      }
+    }
+    h3 {
+      .txt2 {
+        font-size: 20px;
+        letter-spacing: 0.1rem;
+        margin-top: 28px;
       }
     }
   }

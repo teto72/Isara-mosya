@@ -2,7 +2,8 @@
   width: 100%;
   position: fixed;
   z-index: 10;
-  height: 85px;
+  height: 75px;
+  background-color: white;
 }
 
 .header .title {
@@ -14,35 +15,71 @@
 
 .header .title .logo {
   display: inline-block;
+  margin-top: -6px;
 }
 
 .header .title .logo img {
   width: 130px;
+  vertical-align: bottom;
 }
 
 .header .title .sub-txt {
   display: inline-block;
   position: absolute;
-  bottom: 30px;
+  bottom: 23px;
 }
 
 .header .title .sub-txt p {
   font-size: 14px;
-  margin-left: 8px;
+  margin-left: 5px;
+  letter-spacing: 0.1rem;
 }
 
 .header .title .header-contact {
   cursor: pointer;
   position: absolute;
   right: 0;
-  top: 23px;
+  top: 17px;
   background-color: #dd7871;
   color: white;
   border-radius: 25px;
-  padding: 10px 40px;
+  padding: 10px 37px;
 }
 
 .header .title .header-contact:hover {
   background-color: #d85047;
+}
+
+.top-container {
+  padding-top: 75px;
+  text-align: center;
+}
+
+.top-container .bg-img {
+  height: 500px;
+  background-image: url("images/Isara-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.top-container .bg-img .img-txt {
+  padding-top: 93px;
+}
+
+.top-container .bg-img .img-txt .txt1 {
+  font-weight: bold;
+  font-size: 27px;
+  letter-spacing: 0.16rem;
+  margin-bottom: 13px;
+}
+
+.top-container .bg-img .large-title img {
+  width: 318px;
+}
+
+.top-container .bg-img h3 .txt2 {
+  font-size: 20px;
+  letter-spacing: 0.1rem;
+  margin-top: 28px;
 }
 /*# sourceMappingURL=style.css.map */
