@@ -82,4 +82,107 @@
   letter-spacing: 0.1rem;
   margin-top: 28px;
 }
+
+.contact {
+  text-align: center;
+  height: 700px;
+  background-color: orange;
+  padding: 20px 0;
+}
+
+.contact .contact-txt {
+  color: white;
+  font-size: 22px;
+  letter-spacing: 0.1rem;
+  margin-top: 10px;
+}
+
+.contact .important {
+  background: white;
+  width: 460px;
+  margin: 0 auto;
+  color: red;
+  font-weight: bold;
+  margin-top: 12px;
+  letter-spacing: 0.1rem;
+  border-radius: 4px;
+}
+
+.contact .contact-btn {
+  width: 1030px;
+  margin: 0 auto;
+  cursor: pointer;
+  background-color: #dd7871;
+  color: white;
+  border-radius: 50px;
+  padding: 32px 90px;
+  margin-top: 46px;
+}
+
+.contact .contact-btn p {
+  font-size: 30px;
+}
+
+.contact .contact-btn:hover {
+  background-color: #d85047;
+}
+
+.contact .season {
+  font-size: 22px;
+  margin-top: 70px;
+  color: white;
+}
+
+.contact .season p:nth-child(2) {
+  margin-top: 30px;
+}
+
+.contact .season p:nth-child(3) {
+  margin-top: 30px;
+}
+
+.contact .sns {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style: none;
+  margin-top: 26px;
+}
+
+.contact .sns li {
+  margin-left: 10px;
+}
+
+.contact .sns .twit,
+.contact .sns .good {
+  font-size: 12px;
+  color: white;
+}
+
+.contact .sns .twit i,
+.contact .sns .good i {
+  background-color: #00aeef;
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact .sns .twit i:first-child:hover,
+.contact .sns .good i:first-child:hover {
+  background-color: #058cbd;
+}
+
+.contact .sns .twit p,
+.contact .sns .good p {
+  display: inline-block;
+}
+
+.contact .sns .share {
+  font-size: 12px;
+  background-color: #00aeef;
+  padding: 0 6px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
 /*# sourceMappingURL=style.css.map */
