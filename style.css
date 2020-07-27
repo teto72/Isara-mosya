@@ -1,1 +1,48 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.header {
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  height: 85px;
+}
+
+.header .title {
+  width: 1170px;
+  padding: 20px 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header .title .logo {
+  display: inline-block;
+}
+
+.header .title .logo img {
+  width: 130px;
+}
+
+.header .title .sub-txt {
+  display: inline-block;
+  position: absolute;
+  bottom: 30px;
+}
+
+.header .title .sub-txt p {
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+.header .title .header-contact {
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 23px;
+  background-color: #dd7871;
+  color: white;
+  border-radius: 25px;
+  padding: 10px 40px;
+}
+
+.header .title .header-contact:hover {
+  background-color: #d85047;
+}
+/*# sourceMappingURL=style.css.map */
