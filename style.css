@@ -420,4 +420,126 @@
   width: 180px;
   margin: 0 20px;
 }
+
+.merit {
+  padding: 60px 0;
+  background-color: #fef5e0;
+}
+
+.merit .title {
+  width: 855px;
+  margin: 0 auto;
+  padding: 30px;
+  position: relative;
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
+
+.merit .title::before, .merit .title::after {
+  content: "";
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+.merit .title::before {
+  border-left: solid 3px #ebb94d;
+  border-top: solid 3px #ebb94d;
+  top: 0;
+  left: 0;
+}
+
+.merit .title::after {
+  border-right: solid 3px #ebb94d;
+  border-bottom: solid 3px #ebb94d;
+  bottom: 0;
+  right: 0;
+}
+
+.merit .title .txt1 {
+  font-size: 20px;
+}
+
+.merit .title .txt2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.merit .merit-boxs {
+  width: 1190px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px 0;
+  margin: 0 auto;
+}
+
+.merit .merit-boxs .merit-box {
+  margin: 0 auto;
+  width: 30%;
+}
+
+.merit .merit-boxs .merit-box .img1,
+.merit .merit-boxs .merit-box .img2,
+.merit .merit-boxs .merit-box .img3 {
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+}
+
+.merit .merit-boxs .merit-box .img1 {
+  background-image: url(images/learnfromfreelancer.jpg);
+}
+
+.merit .merit-boxs .merit-box .img2 {
+  background-image: url(images/learnfromprojects.jpg);
+}
+
+.merit .merit-boxs .merit-box .img3 {
+  background-image: url(images/actuallyfree.jpg);
+}
+
+.merit .merit-boxs .box-title {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #ebb94d;
+  letter-spacing: 0.1rem;
+}
+
+.merit .merit-boxs p {
+  line-height: 1.6rem;
+}
+
+.merit .benefits {
+  text-align: center;
+  width: 1170px;
+  margin: 0 auto;
+  border: 2px solid #ebb94d;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.merit .benefits .title2 {
+  color: #ebb94d;
+  font-size: 30px;
+  margin: 40px 0 10px;
+}
+
+.merit .benefits .sub-title {
+  font-size: 20px;
+  letter-spacing: 0.1rem;
+}
+
+.merit .benefits p {
+  font-size: 16px;
+  letter-spacing: 0.1rem;
+  margin: 12px 0 52px;
+}
+
+.merit .note {
+  text-align: center;
+  margin-top: 42px;
+  font-size: 14px;
+  letter-spacing: 0.1rem;
+}
 /*# sourceMappingURL=style.css.map */

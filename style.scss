@@ -344,3 +344,86 @@ $bar-color: #ebb94d;
     }
   }
 }
+
+// -------------
+// メリットエリア
+// -------------
+.merit {
+  padding: 60px 0;
+  background-color: #fef5e0;
+  .title {
+    @include box-frames; //mixin使用
+    letter-spacing: 0.1rem;
+    text-align: center;
+    .txt1 {
+      font-size: 20px;
+    }
+    .txt2 {
+      font-size: 28px;
+      font-weight: bold;
+    }
+  }
+  .merit-boxs {
+    width: 1190px;
+    display: flex;
+    padding: 30px 0;
+    margin: 0 auto;
+    .merit-box {
+      margin: 0 auto;
+      width: 30%;
+      .img1,
+      .img2,
+      .img3 {
+        height: 180px;
+        background-size: cover;
+        background-position: center;
+      }
+      .img1 {
+        background-image: url(images/learnfromfreelancer.jpg);
+      }
+      .img2 {
+        background-image: url(images/learnfromprojects.jpg);
+      }
+      .img3 {
+        background-image: url(images/actuallyfree.jpg);
+      }
+    }
+    .box-title {
+      font-size: 20px;
+      margin: 10px 0;
+      color: #ebb94d;
+      letter-spacing: 0.1rem;
+    }
+    p {
+      line-height: 1.6rem;
+    }
+  }
+  .benefits {
+    text-align: center;
+    width: 1170px;
+    margin: 0 auto;
+    border: 2px solid #ebb94d;
+    border-radius: 4px;
+    background-color: #fff;
+    .title2 {
+      color: #ebb94d;
+      font-size: 30px;
+      margin: 40px 0 10px;
+    }
+    .sub-title {
+      font-size: 20px;
+      letter-spacing: 0.1rem;
+    }
+    p {
+      font-size: 16px;
+      letter-spacing: 0.1rem;
+      margin: 12px 0 52px;
+    }
+  }
+  .note {
+    text-align: center;
+    margin-top: 42px;
+    font-size: 14px;
+    letter-spacing: 0.1rem;
+  }
+}
