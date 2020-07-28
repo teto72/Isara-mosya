@@ -184,7 +184,7 @@ $bar-color: #ebb94d;
   background-position: center;
   background-size: cover;
   .box-frame {
-    @include box-frames;
+    @include box-frames; //mixin使用
       margin-top: 40px;
     .box-txt {
         font-size: 28px;
@@ -228,7 +228,7 @@ $bar-color: #ebb94d;
     }
   }
   .box-frame {
-    @include box-frames;
+    @include box-frames; //mixin使用
 
     p {
       font-size: 28px;
@@ -317,6 +317,30 @@ $bar-color: #ebb94d;
     text-align: center;
     span {
       color: #ebb94d;
+    }
+  }
+}
+
+// ------------
+// learnエリア
+// ------------
+.learn {
+  text-align: center;
+  padding: 50px;
+  .title {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .sub-title {
+    margin-top: 43px;
+    font-size: 20px;
+    letter-spacing: 0.1rem;
+  }
+  .learn-imgs {
+    margin: 44px 0 35px;
+    img {
+      width: 180px;
+      margin: 0 20px;
     }
   }
 }

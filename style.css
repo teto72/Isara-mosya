@@ -395,4 +395,29 @@
 .about-second .about-txt span {
   color: #ebb94d;
 }
+
+.learn {
+  text-align: center;
+  padding: 50px;
+}
+
+.learn .title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.learn .sub-title {
+  margin-top: 43px;
+  font-size: 20px;
+  letter-spacing: 0.1rem;
+}
+
+.learn .learn-imgs {
+  margin: 44px 0 35px;
+}
+
+.learn .learn-imgs img {
+  width: 180px;
+  margin: 0 20px;
+}
 /*# sourceMappingURL=style.css.map */
