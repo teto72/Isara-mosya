@@ -542,4 +542,56 @@
   font-size: 14px;
   letter-spacing: 0.1rem;
 }
+
+.member {
+  padding: 80px 0 30px;
+  text-align: center;
+  background-image: url(images/teacherbg.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.member .title {
+  font-size: 30px;
+}
+
+.member .sub-title {
+  margin-top: 28px;
+  letter-spacing: 0.1rem;
+  font-size: 15px;
+}
+
+.member .up-boxs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.member .up-boxs .member-box {
+  padding: 0 15px;
+  width: 50%;
+}
+
+.member .up-boxs .member-box img {
+  width: 200px;
+  position: relative;
+  bottom: -35px;
+  border-radius: 50%;
+}
+
+.member .up-boxs .member-box .datail {
+  padding: 40px;
+  border: 3px solid #fff;
+}
+
+.member .up-boxs .member-box .datail .name {
+  margin: 15px;
+}
+
+.member .up-boxs .member-box .datail .txt {
+  line-height: 25px;
+}
 /*# sourceMappingURL=style.css.map */

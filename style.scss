@@ -427,3 +427,48 @@ $bar-color: #ebb94d;
     letter-spacing: 0.1rem;
   }
 }
+
+// -------------
+// メンバーエリア
+// -------------
+.member {
+  padding: 80px 0 30px;
+  text-align: center;
+  background-image: url(images/teacherbg.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  .title {
+    font-size: 30px;
+  }
+  .sub-title {
+    margin-top: 28px;
+    letter-spacing: 0.1rem;
+    font-size: 15px;
+  }
+  .up-boxs {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    .member-box {
+      padding: 0 15px;
+      width: 50%;
+      img {
+        width: 200px;
+        position: relative;
+        bottom: -35px;
+        border-radius: 50%;
+      }
+      .datail {
+        padding: 40px;
+        border: 3px solid #fff;
+        .name {
+          margin: 15px;
+        }
+        .txt {
+          line-height: 25px;
+        }
+      }
+    }
+  }
+}
