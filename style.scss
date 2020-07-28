@@ -1,3 +1,5 @@
+@import "mixin";
+
 .header {
   width: 100%;
   position: fixed;
@@ -182,32 +184,12 @@ $bar-color: #ebb94d;
   background-position: center;
   background-size: cover;
   .box-frame {
-    width: 855px;
-    margin: 0 auto;
-    margin-top: 40px;
-    padding: 30px;
-    position: relative;
+    @include box-frames;
+      margin-top: 40px;
     .box-txt {
-      font-size: 28px;
-      letter-spacing: 0.1rem;
-    }
-    &::before, &::after {
-      content: "";
-      width: 50px;
-      height: 50px;
-      position: absolute;
-    }
-    &::before {
-      border-left: $bar-style $bar-size $bar-color;
-	    border-top: $bar-style $bar-size $bar-color;
-	    top: 0;
-	    left: 0;
-    }
-    &::after {
-      border-right: $bar-style $bar-size $bar-color;
-	    border-bottom: $bar-style $bar-size $bar-color;
-	    bottom: 0;
-	    right: 0;
+        font-size: 28px;
+        font-weight: bold;
+        letter-spacing: 0.1rem;
     }
   }
   .intro-txt {
@@ -221,4 +203,65 @@ $bar-color: #ebb94d;
       }
     }
   }
+}
+
+// --------------
+// ABOUTエリア
+// --------------
+.about {
+  padding-bottom: 40px;
+  text-align: center;
+  background-color: #fef5e0;
+  .title {
+    position: relative;
+    top: -40px;
+    p {
+      width: 80px;
+      height: 80px;
+      line-height: 80px;
+      font-size: 14px;
+      background-color: #ebb94d;
+      border-radius: 50%;
+      margin: 0 auto;
+      color: white;
+
+    }
+  }
+  .box-frame {
+    @include box-frames;
+
+    p {
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: 0.1rem;
+    }
+  }
+  .subtxt {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    margin-top: 33px;
+  }
+  .skill-boxs {
+    height: 254px;
+    width: 1170px;
+    background-color: #fff;
+    border: 2px solid #ebb94d;
+    margin:  30px auto;
+    .skill-txt {
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 30px;
+      letter-spacing: 0.1rem;
+    }
+    .skill-box {
+      padding: 21px 17px;
+      font-size: 12px;
+      display: inline-block;
+      .img-txt {
+        margin: 10px 0;
+      }
+    }
+  }
+
 }

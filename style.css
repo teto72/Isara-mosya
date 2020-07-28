@@ -197,14 +197,9 @@
 .introduction .box-frame {
   width: 855px;
   margin: 0 auto;
-  margin-top: 40px;
   padding: 30px;
   position: relative;
-}
-
-.introduction .box-frame .box-txt {
-  font-size: 28px;
-  letter-spacing: 0.1rem;
+  margin-top: 40px;
 }
 
 .introduction .box-frame::before, .introduction .box-frame::after {
@@ -228,6 +223,12 @@
   right: 0;
 }
 
+.introduction .box-frame .box-txt {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
 .introduction .intro-txt {
   font-size: 20px;
   letter-spacing: 0.1rem;
@@ -241,5 +242,93 @@
   font-weight: bold;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, #ebb94d));
   background: linear-gradient(transparent 70%, #ebb94d 70%);
+}
+
+.about {
+  padding-bottom: 40px;
+  text-align: center;
+  background-color: #fef5e0;
+}
+
+.about .title {
+  position: relative;
+  top: -40px;
+}
+
+.about .title p {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 14px;
+  background-color: #ebb94d;
+  border-radius: 50%;
+  margin: 0 auto;
+  color: white;
+}
+
+.about .box-frame {
+  width: 855px;
+  margin: 0 auto;
+  padding: 30px;
+  position: relative;
+}
+
+.about .box-frame::before, .about .box-frame::after {
+  content: "";
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+.about .box-frame::before {
+  border-left: solid 3px #ebb94d;
+  border-top: solid 3px #ebb94d;
+  top: 0;
+  left: 0;
+}
+
+.about .box-frame::after {
+  border-right: solid 3px #ebb94d;
+  border-bottom: solid 3px #ebb94d;
+  bottom: 0;
+  right: 0;
+}
+
+.about .box-frame p {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+.about .subtxt {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  margin-top: 33px;
+}
+
+.about .skill-boxs {
+  height: 254px;
+  width: 1170px;
+  background-color: #fff;
+  border: 2px solid #ebb94d;
+  margin: 30px auto;
+}
+
+.about .skill-boxs .skill-txt {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  letter-spacing: 0.1rem;
+}
+
+.about .skill-boxs .skill-box {
+  padding: 21px 17px;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.about .skill-boxs .skill-box .img-txt {
+  margin: 10px 0;
 }
 /*# sourceMappingURL=style.css.map */
