@@ -331,4 +331,68 @@
 .about .skill-boxs .skill-box .img-txt {
   margin: 10px 0;
 }
+
+.about-second {
+  background-image: url(images/aboutsecondbg.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 60px 0 0 0;
+}
+
+.about-second .title {
+  color: white;
+  font-size: 28px;
+  letter-spacing: 0.1rem;
+}
+
+.about-second .sub-title {
+  color: white;
+  font-size: 20px;
+  letter-spacing: 0.1rem;
+  margin-top: 20px;
+}
+
+.about-second .sub-title span {
+  color: #ebb94d;
+}
+
+.about-second .step-boxs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 42px 110px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.about-second .step-boxs .step-box {
+  margin: 0 10px;
+  border-radius: 4px;
+  background-color: white;
+  width: 30%;
+}
+
+.about-second .step-boxs .step-box .step {
+  margin: 30px 15px;
+  background-color: #ebb94d;
+  border-radius: 4px;
+  color: white;
+}
+
+.about-second .step-boxs .step-box .txt2 {
+  margin: 20px 0;
+}
+
+.about-second .about-txt {
+  font-size: 21px;
+  padding: 45px 0;
+  color: white;
+  background-color: #016ea9;
+  text-align: center;
+}
+
+.about-second .about-txt span {
+  color: #ebb94d;
+}
 /*# sourceMappingURL=style.css.map */
