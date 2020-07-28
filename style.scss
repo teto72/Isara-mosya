@@ -84,7 +84,7 @@
 .contact {
   text-align: center;
   height: 700px;
-  background-color: orange;
+  background-color: #ebb94d;
   padding: 20px 0;
   .contact-txt {
     color: white;
@@ -168,3 +168,57 @@
   }
 }
 
+// ------------
+// 前書き部分
+// ------------
+$bar-style: solid; 
+$bar-size: 3px;
+$bar-color: #ebb94d;
+
+.introduction {
+  height: 550px;
+  text-align: center;
+  background-image: url(images/introbottom.jpg);
+  background-position: center;
+  background-size: cover;
+  .box-frame {
+    width: 855px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 30px;
+    position: relative;
+    .box-txt {
+      font-size: 28px;
+      letter-spacing: 0.1rem;
+    }
+    &::before, &::after {
+      content: "";
+      width: 50px;
+      height: 50px;
+      position: absolute;
+    }
+    &::before {
+      border-left: $bar-style $bar-size $bar-color;
+	    border-top: $bar-style $bar-size $bar-color;
+	    top: 0;
+	    left: 0;
+    }
+    &::after {
+      border-right: $bar-style $bar-size $bar-color;
+	    border-bottom: $bar-style $bar-size $bar-color;
+	    bottom: 0;
+	    right: 0;
+    }
+  }
+  .intro-txt {
+    font-size: 20px;
+    letter-spacing: 0.1rem;
+    p {
+      margin-top: 35px;
+      span {
+        font-weight: bold;
+        background: linear-gradient(transparent 70%, #ebb94d 70%);
+      }
+    }
+  }
+}

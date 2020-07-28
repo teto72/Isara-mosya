@@ -86,7 +86,7 @@
 .contact {
   text-align: center;
   height: 700px;
-  background-color: orange;
+  background-color: #ebb94d;
   padding: 20px 0;
 }
 
@@ -184,5 +184,62 @@
   border-radius: 4px;
   color: white;
   cursor: pointer;
+}
+
+.introduction {
+  height: 550px;
+  text-align: center;
+  background-image: url(images/introbottom.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.introduction .box-frame {
+  width: 855px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 30px;
+  position: relative;
+}
+
+.introduction .box-frame .box-txt {
+  font-size: 28px;
+  letter-spacing: 0.1rem;
+}
+
+.introduction .box-frame::before, .introduction .box-frame::after {
+  content: "";
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+.introduction .box-frame::before {
+  border-left: solid 3px #ebb94d;
+  border-top: solid 3px #ebb94d;
+  top: 0;
+  left: 0;
+}
+
+.introduction .box-frame::after {
+  border-right: solid 3px #ebb94d;
+  border-bottom: solid 3px #ebb94d;
+  bottom: 0;
+  right: 0;
+}
+
+.introduction .intro-txt {
+  font-size: 20px;
+  letter-spacing: 0.1rem;
+}
+
+.introduction .intro-txt p {
+  margin-top: 35px;
+}
+
+.introduction .intro-txt p span {
+  font-weight: bold;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, #ebb94d));
+  background: linear-gradient(transparent 70%, #ebb94d 70%);
 }
 /*# sourceMappingURL=style.css.map */
