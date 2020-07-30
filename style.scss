@@ -476,26 +476,27 @@ $bar-color: #ebb94d;
 // Q&Aエリア
 
 $bar-color: #fff;
-.QA {
-  height: 270px;
-  padding-top: 40px;
+.question {
   text-align: center;
-  background-color: #ebb94d;
-  position: relative;
-  &::after {
-    content: ' ';
-    position: absolute;
-    top: 100%;
-    left: 48%;
-    width: 0;
-    height: 0;
-    border: none;
-    border-top: 25px solid #ebb94d;
-    border-right: 25px solid transparent;
-    border-left: 25px solid transparent;
-  }
-  .qa-round {
-    width: 80px;
+  .QA {
+    height: 270px;
+    padding: 40px 0;
+    background-color: #ebb94d;
+    position: relative;
+    &::after {
+      content: ' ';
+      position: absolute;
+      top: 100%;
+      left: 48%;
+      width: 0;
+      height: 0;
+      border: none;
+      border-top: 25px solid #ebb94d;
+      border-right: 25px solid transparent;
+      border-left: 25px solid transparent;
+    }
+    .qa-round {
+      width: 80px;
       height: 80px;
       line-height: 80px;
       font-size: 14px;
@@ -503,52 +504,118 @@ $bar-color: #fff;
       border-radius: 50%;
       margin: 0 auto;
       color: #ebb94d;
+    }
+    .question1 {
+      @include box-frames;
+      .title {
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 30px;
+        color: #fff;
+      }
+    }
   }
-  .question1 {
-    @include box-frames;
-    .title {
-      font-size: 30px;
-      font-weight: bold;
+}
+  
+// -------------
+// アンサーエリア
+// -------------
+.answer {
+  text-align: center;
+  padding: 40px 0;
+  .title {
+    font-size: 30px;
+  }
+  .sub-title {
+    margin-top: 10px;
+    letter-spacing: 0.1rem;
+  }
+  .kome {
+    margin: 30px 0;
+  }
+}
+.voice-boxs {
+  max-width: 780px;
+  margin: 0 auto;
+  .voice-box {
+    display: flex;
+    margin-bottom: 40px;
+    color: #777;
+    img {
+      width: 245px;
+      border: 2px solid #ebb94d;
+    }
+    .txt {
+      font-size: 20px;
       line-height: 25px;
-      color: #fff;
+      margin: 15px 30px;
+      text-align: left;
+    }
+    .info {
+      font-size: 14px;
+      margin-top: 12px;
+      text-decoration: underline;
+      font-style: italic;
     }
   }
-  .answer {
-    padding-top: 80px;
-    .title {
-      font-size: 30px;
-    }
-    .sub-title {
+}
+
+
+// --------------
+// 学習内容エリア
+// --------------
+.study-content {
+  padding-top: 40px;
+  text-align: center;
+  background-image: url(images/classbg.jpg);
+  background-position: center;
+  background-size: cover;
+  .title {
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 0.1rem;
+    .txt {
+      font-size: 16px;
       margin-top: 10px;
-      letter-spacing: 0.1rem;
-    }
-    .kome {
-      margin: 30px 0;
     }
   }
-  .voice-boxs {
-    width: 780px;
+  .content-boxs {
+    display: flex;
+    padding: 80px 0;
+    max-width: 810px;
     margin: 0 auto;
-    .voice-box {
-      display: flex;
-      margin-bottom: 40px;
-      color: #777;
-      img {
-        width: 245px;
-        border: 2px solid #ebb94d;
+    .content-box {
+      background-color: #fff;
+      margin: 0 15px;
+      border: 2px solid #016ea9;
+      border-radius: 4px;
+      &:last-child {
+        height: 353px;
       }
-      .txt {
-        font-size: 20px;
-        line-height: 25px;
-        margin: 15px 30px;
-        text-align: left;
-      }
-      .info {
-        font-size: 14px;
-        margin-top: 12px;
-        text-decoration: underline;
-        font-style: italic;
+      ul {
+        width: 373px;
+        border-radius: 4px;
+        li { 
+          font-weight: bold;
+          padding: 15px 25px 7px 15px;
+          border-top: 1px solid #e5e5e5;
+          list-style: none;
+          &:first-child {
+            color: #fff;
+            font-size: 20px;
+            padding: 16px 16px 18px 16px;
+            background-color: #016ea9;
+            border: none;
+          }
+        }
       }
     }
+  }
+  .content-txt {
+    padding: 40px 0;
+    color: #fff;
+    background-color: #016ea9;
+    font-size: 20px;
+    font-weight: bold;
   }
 }

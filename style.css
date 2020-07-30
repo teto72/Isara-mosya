@@ -595,15 +595,18 @@
   line-height: 25px;
 }
 
-.QA {
-  height: 270px;
-  padding-top: 40px;
+.question {
   text-align: center;
+}
+
+.question .QA {
+  height: 270px;
+  padding: 40px 0;
   background-color: #ebb94d;
   position: relative;
 }
 
-.QA::after {
+.question .QA::after {
   content: ' ';
   position: absolute;
   top: 100%;
@@ -616,7 +619,7 @@
   border-left: 25px solid transparent;
 }
 
-.QA .qa-round {
+.question .QA .qa-round {
   width: 80px;
   height: 80px;
   line-height: 80px;
@@ -627,64 +630,65 @@
   color: #ebb94d;
 }
 
-.QA .question1 {
+.question .QA .question1 {
   width: 855px;
   margin: 0 auto;
   padding: 30px;
   position: relative;
 }
 
-.QA .question1::before, .QA .question1::after {
+.question .QA .question1::before, .question .QA .question1::after {
   content: "";
   width: 50px;
   height: 50px;
   position: absolute;
 }
 
-.QA .question1::before {
+.question .QA .question1::before {
   border-left: solid 3px #fff;
   border-top: solid 3px #fff;
   top: 0;
   left: 0;
 }
 
-.QA .question1::after {
+.question .QA .question1::after {
   border-right: solid 3px #fff;
   border-bottom: solid 3px #fff;
   bottom: 0;
   right: 0;
 }
 
-.QA .question1 .title {
+.question .QA .question1 .title {
   font-size: 30px;
   font-weight: bold;
-  line-height: 25px;
+  line-height: 30px;
   color: #fff;
 }
 
-.QA .answer {
-  padding-top: 80px;
+.answer {
+  text-align: center;
+  padding: 40px 0;
 }
 
-.QA .answer .title {
+.answer .title {
   font-size: 30px;
 }
 
-.QA .answer .sub-title {
+.answer .sub-title {
   margin-top: 10px;
   letter-spacing: 0.1rem;
 }
 
-.QA .answer .kome {
+.answer .kome {
   margin: 30px 0;
 }
 
-.QA .voice-boxs {
-  width: 780px;
+.voice-boxs {
+  max-width: 780px;
   margin: 0 auto;
 }
 
-.QA .voice-boxs .voice-box {
+.voice-boxs .voice-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -692,22 +696,89 @@
   color: #777;
 }
 
-.QA .voice-boxs .voice-box img {
+.voice-boxs .voice-box img {
   width: 245px;
   border: 2px solid #ebb94d;
 }
 
-.QA .voice-boxs .voice-box .txt {
+.voice-boxs .voice-box .txt {
   font-size: 20px;
   line-height: 25px;
   margin: 15px 30px;
   text-align: left;
 }
 
-.QA .voice-boxs .voice-box .info {
+.voice-boxs .voice-box .info {
   font-size: 14px;
   margin-top: 12px;
   text-decoration: underline;
   font-style: italic;
+}
+
+.study-content {
+  padding-top: 40px;
+  text-align: center;
+  background-image: url(images/classbg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.study-content .title {
+  color: #fff;
+  font-size: 30px;
+  letter-spacing: 0.1rem;
+}
+
+.study-content .title .txt {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.study-content .content-boxs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 80px 0;
+  max-width: 810px;
+  margin: 0 auto;
+}
+
+.study-content .content-boxs .content-box {
+  background-color: #fff;
+  margin: 0 15px;
+  border: 2px solid #016ea9;
+  border-radius: 4px;
+}
+
+.study-content .content-boxs .content-box:last-child {
+  height: 353px;
+}
+
+.study-content .content-boxs .content-box ul {
+  width: 373px;
+  border-radius: 4px;
+}
+
+.study-content .content-boxs .content-box ul li {
+  font-weight: bold;
+  padding: 15px 25px 7px 15px;
+  border-top: 1px solid #e5e5e5;
+  list-style: none;
+}
+
+.study-content .content-boxs .content-box ul li:first-child {
+  color: #fff;
+  font-size: 20px;
+  padding: 16px 16px 18px 16px;
+  background-color: #016ea9;
+  border: none;
+}
+
+.study-content .content-txt {
+  padding: 40px 0;
+  color: #fff;
+  background-color: #016ea9;
+  font-size: 20px;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */
