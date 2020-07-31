@@ -781,4 +781,69 @@
   font-size: 20px;
   font-weight: bold;
 }
+
+.flow {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.flow .title {
+  margin: 20px 0;
+  font-size: 30px;
+}
+
+.flow .flow-img {
+  max-width: 100%;
+  margin: 45px 0 25px;
+}
+
+.flow .flow-boxs {
+  padding: 10px 0;
+  text-align: left;
+}
+
+.flow .flow-boxs .flow-box {
+  padding: 10px 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1170px;
+  background: antiquewhite;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+
+.flow .flow-boxs .flow-box .box-right {
+  width: 200px;
+  text-align: center;
+  padding: 20px;
+}
+
+.flow .flow-boxs .flow-box .box-right p {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.flow .flow-boxs .flow-box .box-left {
+  padding: 18px 0;
+}
+
+.flow .flow-boxs .flow-box .box-left .title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.flow .flow-boxs .flow-box .box-left .sub-title {
+  font-weight: bold;
+}
+
+.flow .flow-boxs .flow-box .box-left .txt {
+  font-size: 15px;
+  margin: 22px 0;
+}
+
+.flow .flow-boxs .line {
+  text-align: center;
+  margin-bottom: -6px;
+}
 /*# sourceMappingURL=style.css.map */

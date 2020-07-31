@@ -475,6 +475,7 @@ $bar-color: #ebb94d;
 
 // Q&Aエリア
 
+// Questionエリア
 $bar-color: #fff;
 .question {
   text-align: center;
@@ -617,5 +618,58 @@ $bar-color: #fff;
     background-color: #016ea9;
     font-size: 20px;
     font-weight: bold;
+  }
+}
+
+// 学習の流れ
+.flow {
+  padding: 40px 0;
+  text-align: center;
+  .title {
+    margin: 20px 0;
+    font-size: 30px;
+  }
+  .flow-img {
+    max-width: 100%;
+    margin: 45px 0 25px;
+  }
+  .flow-boxs {
+    padding: 10px 0;
+    text-align: left;
+    .flow-box {
+      padding: 10px 35px;
+      display: flex;
+      width: 1170px;
+      background: antiquewhite;
+      margin: 0 auto;
+      border-radius: 6px;
+      .box-right {
+        width: 200px;
+        text-align: center;
+        padding: 20px;
+        p {
+          margin-top: 15px;
+          font-size: 18px;
+        }
+      }
+      .box-left {
+        padding: 18px 0;
+        .title {
+          font-size: 16px;
+          font-weight: bold;
+        }
+        .sub-title {
+          font-weight: bold;
+        }
+        .txt {
+          font-size: 15px;
+          margin: 22px 0;
+        }
+      }
+    }
+    .line {
+      text-align: center;
+      margin-bottom: -6px;
+    }
   }
 }
