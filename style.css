@@ -847,4 +847,34 @@
   text-align: center;
   margin-bottom: -6px;
 }
+
+.why {
+  padding: 100px 0 95px;
+  background-image: url(images/bangkokbg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.why .title {
+  width: 1170px;
+  margin: 0 auto;
+  font-size: 27px;
+  color: #fff;
+}
+
+.why .title .txt {
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+.why .title ul li {
+  font-size: 18px;
+  margin: 8px 0;
+  list-style: none;
+}
+
+.why .title .bottom {
+  font-size: 20px;
+  margin-top: 20px;
+}
 /*# sourceMappingURL=style.css.map */

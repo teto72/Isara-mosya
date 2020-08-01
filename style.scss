@@ -674,3 +674,34 @@ $bar-color: #fff;
     }
   }
 }
+
+// --------------
+// why?バンコク
+// --------------
+.why {
+  padding: 100px 0 95px;
+  background-image: url(images/bangkokbg.jpg);
+  background-position: center;
+  background-size: cover;
+  .title {
+    width: 1170px;
+    margin: 0 auto;
+    font-size: 27px;
+    color: #fff;
+    .txt {
+      font-size: 14px;
+      margin: 20px 0;
+    }
+    ul {
+      li {
+        font-size: 18px;
+        margin: 8px 0;
+        list-style: none;
+      }
+    }
+    .bottom {
+      font-size: 20px;
+      margin-top: 20px;
+    }
+  }
+}
