@@ -877,4 +877,61 @@
   font-size: 20px;
   margin-top: 20px;
 }
+
+.benefits {
+  text-align: center;
+  padding: 65px 0;
+  background-color: #f7c23c;
+}
+
+.benefits .title {
+  font-size: 30px;
+}
+
+.benefits .title .txt {
+  font-size: 16px;
+  margin: 30px 0;
+  letter-spacing: 0.1rem;
+}
+
+.benefits .title .txt span {
+  color: #fff;
+}
+
+.benefits .sub-title {
+  width: 640px;
+  margin: 0px auto;
+  background: #f7c23c;
+  font-size: 30px;
+  position: relative;
+  bottom: -40px;
+}
+
+.benefits .benefits-boxs {
+  width: 1170px;
+  padding: 30px 0;
+  margin: 18px auto;
+  border: 2px solid #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.benefits .benefits-boxs .benefits-box {
+  height: 250px;
+  border-radius: 50%;
+  background: #fff;
+  padding: 20px;
+  margin: 20px 75px;
+}
+
+.benefits .benefits-boxs .benefits-box .txts {
+  width: 200px;
+}
+
+.benefits .benefits-boxs .benefits-box .txts .title {
+  color: #ebb94d;
+  font-size: 25px;
+  margin: 30px 0 10px;
+}
 /*# sourceMappingURL=style.css.map */
