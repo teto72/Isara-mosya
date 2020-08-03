@@ -510,7 +510,7 @@
   line-height: 1.6rem;
 }
 
-.merit .benefits {
+.merit .saport {
   text-align: center;
   width: 1170px;
   margin: 0 auto;
@@ -519,18 +519,18 @@
   background-color: #fff;
 }
 
-.merit .benefits .title2 {
+.merit .saport .title2 {
   color: #ebb94d;
   font-size: 30px;
   margin: 40px 0 10px;
 }
 
-.merit .benefits .sub-title {
+.merit .saport .sub-title {
   font-size: 20px;
   letter-spacing: 0.1rem;
 }
 
-.merit .benefits p {
+.merit .saport p {
   font-size: 16px;
   letter-spacing: 0.1rem;
   margin: 12px 0 52px;
@@ -880,7 +880,7 @@
 
 .benefits {
   text-align: center;
-  padding: 65px 0;
+  padding: 65px 0 25px;
   background-color: #f7c23c;
 }
 
@@ -933,5 +933,59 @@
   color: #ebb94d;
   font-size: 25px;
   margin: 30px 0 10px;
+}
+
+.data {
+  color: #fff;
+  padding: 60px 0;
+  text-align: center;
+  background-image: url(images/specialdetail.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.data .title {
+  font-size: 30px;
+  margin-bottom: 38px;
+}
+
+.data .title .txts {
+  font-size: 21px;
+  margin-top: 20px;
+}
+
+.data .brackets {
+  width: 855px;
+  margin: 0 auto;
+  padding: 30px;
+  position: relative;
+  font-size: 30px;
+  padding: 13px;
+}
+
+.data .brackets::before, .data .brackets::after {
+  content: "";
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+.data .brackets::before {
+  border-left: solid 3px #fff;
+  border-top: solid 3px #fff;
+  top: 0;
+  left: 0;
+}
+
+.data .brackets::after {
+  border-right: solid 3px #fff;
+  border-bottom: solid 3px #fff;
+  bottom: 0;
+  right: 0;
+}
+
+.data .bottom-txt {
+  font-size: 20px;
+  margin: 20px 0;
 }
 /*# sourceMappingURL=style.css.map */

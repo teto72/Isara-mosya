@@ -398,7 +398,7 @@ $bar-color: #ebb94d;
       line-height: 1.6rem;
     }
   }
-  .benefits {
+  .saport {
     text-align: center;
     width: 1170px;
     margin: 0 auto;
@@ -711,7 +711,7 @@ $bar-color: #fff;
 // -------------
 .benefits {
   text-align: center;
-  padding: 65px 0;
+  padding: 65px 0 25px;
   background-color: #f7c23c;
   .title {
     font-size: 30px;
@@ -753,5 +753,34 @@ $bar-color: #fff;
         }
       }
     }
+  }
+}
+
+// -------------------------------
+// isaraはボランティアではありません
+// -------------------------------
+.data {
+  color: #fff;
+  padding: 60px 0;
+  text-align: center;
+  background-image: url(images/specialdetail.jpg);
+  background-position: center;
+  background-size: cover;
+  .title {
+    font-size: 30px;
+    margin-bottom: 38px;
+    .txts {
+      font-size: 21px;
+      margin-top: 20px;
+    }
+  }
+  .brackets {
+    @include box-frames;
+    font-size: 30px;
+    padding: 13px;
+  }
+  .bottom-txt {
+    font-size: 20px;
+    margin: 20px 0;
   }
 }
