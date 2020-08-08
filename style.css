@@ -988,4 +988,54 @@
   font-size: 20px;
   margin: 20px 0;
 }
+
+.message {
+  padding: 60px 0;
+}
+
+.message .title {
+  text-align: center;
+  font-size: 30px;
+}
+
+.message .title .subtxt {
+  font-size: 20px;
+  letter-spacing: 0.1rem;
+  margin-top: 30px;
+}
+
+.message .contents {
+  width: 860px;
+  margin: 40px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.message .contents img {
+  width: 195px;
+  height: 145px;
+}
+
+.message .contents .right-box {
+  margin-left: 27px;
+  font-size: 15px;
+  color: #777;
+}
+
+.message .contents .right-box .txt {
+  margin-top: 10px;
+}
+
+.message .contents .right-box ul {
+  margin-top: 30px;
+}
+
+.message .contents .right-box ul li {
+  list-style: none;
+}
+
+.message .contents .right-box .bottom-txt {
+  margin-top: 27px;
+}
 /*# sourceMappingURL=style.css.map */

@@ -784,3 +784,49 @@ $bar-color: #fff;
     margin: 20px 0;
   }
 }
+
+
+// --------------------
+// 創業者からのメッセージ
+// --------------------
+.message {
+  padding: 60px 0;
+  .title {
+    text-align: center;
+    font-size: 30px;
+    .subtxt {
+      font-size: 20px;
+      letter-spacing: 0.1rem;
+      margin-top: 30px;
+    }
+  }
+  .contents {
+    width: 860px;
+    margin: 40px auto;
+    display: flex;
+    img {
+      width: 195px;
+      height: 145px;
+    }
+    .right-box {
+      margin-left: 27px;
+      font-size: 15px;
+      color: #777;
+      .name {
+
+      }
+      .txt {
+        margin-top: 10px;
+      }
+      ul {
+        margin-top: 30px;
+        li {
+          list-style: none;
+        }
+      }
+      .bottom-txt {
+        margin-top: 27px;
+      }
+    }
+  }
+}
