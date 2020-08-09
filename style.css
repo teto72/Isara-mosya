@@ -1035,7 +1035,61 @@
   list-style: none;
 }
 
-.message .contents .right-box .bottom-txt {
+.message .contents .right-box .bottom-txts {
   margin-top: 27px;
+}
+
+.form {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #f7c23c;
+}
+
+.form .title {
+  font-size: 29px;
+}
+
+.form .title .txt {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.form .form-box {
+  margin: 0 auto;
+  text-align: left;
+}
+
+.form .form-box .ln,
+.form .form-box .fn,
+.form .form-box .mail {
+  width: 850px;
+  height: 53px;
+  margin: 30px auto;
+  padding: 13px 6px;
+  color: #777;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.form .form-box .txt-field {
+  width: 850px;
+  height: 80px;
+  margin: 40px auto;
+  padding: 13px 6px;
+  color: #777;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.form .form-box .submit {
+  width: 850px;
+  height: 53px;
+  margin: 0 auto;
+  line-height: 53px;
+  font-size: 22px;
+  text-align: center;
+  color: #fff;
+  background-color: #dd7871;
+  border-radius: 25px;
 }
 /*# sourceMappingURL=style.css.map */

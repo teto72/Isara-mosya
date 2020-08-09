@@ -824,9 +824,60 @@ $bar-color: #fff;
           list-style: none;
         }
       }
-      .bottom-txt {
+      .bottom-txts {
         margin-top: 27px;
       }
+    }
+  }
+}
+
+// ----------------
+// 資料請求フォーム
+// ----------------
+.form {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #f7c23c;
+  .title {
+    font-size: 29px;
+    .txt {
+      font-size: 18px;
+      margin-top: 15px;
+    }
+  }
+  .form-box {
+    margin: 0 auto;
+    text-align: left;
+    .ln,
+    .fn,
+    .mail {
+      width: 850px;
+      height: 53px;
+      margin: 30px auto;
+      padding: 13px 6px;
+      color: #777;
+      background-color: #fff;
+      border-radius: 4px;
+    }
+    .txt-field {
+      width: 850px;
+      height: 80px;
+      margin: 40px auto;
+      padding: 13px 6px;
+      color: #777;
+      background-color: #fff;
+      border-radius: 4px;
+    }
+    .submit {
+      width: 850px;
+      height: 53px;
+      margin: 0 auto;
+      line-height: 53px;
+      font-size: 22px;
+      text-align: center;
+      color: #fff;
+      background-color: #dd7871;
+      border-radius: 25px;
     }
   }
 }
