@@ -917,3 +917,15 @@ $bar-color: #fff;
     }
   }
 }
+
+// スムーススクロール
+.scrollbtn {
+  font-size: 30px;
+  position: fixed;
+  bottom: 85px;
+  right: 45px;
+  padding: 15px 25px;
+  z-index: 100;
+  color: #777;
+  background-color: #ececec;
+}
