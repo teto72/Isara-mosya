@@ -1134,4 +1134,82 @@
   margin-bottom: 5px;
   border-bottom: 1px solid #ddd;
 }
+
+.footer {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #ececec;
+}
+
+.footer h4 {
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.footer .txt {
+  font-size: 6px;
+  letter-spacing: 0.1rem;
+}
+
+.footer .txt span {
+  cursor: pointer;
+  color: #337ab7;
+}
+
+.footer .sns {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style: none;
+  margin-top: 26px;
+  margin-top: 11px;
+}
+
+.footer .sns li {
+  margin-left: 10px;
+}
+
+.footer .sns .twit,
+.footer .sns .good {
+  font-size: 12px;
+  color: white;
+}
+
+.footer .sns .twit i,
+.footer .sns .good i {
+  background-color: #00aeef;
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer .sns .twit i:first-child:hover,
+.footer .sns .good i:first-child:hover {
+  background-color: #058cbd;
+}
+
+.footer .sns .twit p,
+.footer .sns .good p {
+  display: inline-block;
+}
+
+.footer .sns .share {
+  font-size: 12px;
+  background-color: #00aeef;
+  padding: 0 6px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.footer .b-txt {
+  font-size: 6px;
+  margin-top: 33px;
+  letter-spacing: 0.1rem;
+}
+
+.footer .b-txt span {
+  cursor: pointer;
+  color: #337ab7;
+}
 /*# sourceMappingURL=style.css.map */
